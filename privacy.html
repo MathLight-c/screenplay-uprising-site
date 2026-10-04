@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Politique de confidentialité — Screenplay Uprising</title><link rel="stylesheet" href="/styles.css"></head>
+<body>
+<header><a class="brand" href="/">Screenplay Uprising</a><nav aria-label="Navigation principale"><a href="/">Accueil</a><a href="/support">Support</a></nav></header>
+<main class="prose">
+<h1>Politique de confidentialité</h1><p>Version du 4 octobre 2026 · Screenplay Uprising v1.0</p>
+<h2>Données accessibles et finalité</h2>
+<p>Screenplay Uprising est un module complémentaire Google Docs. Il lit et modifie le texte, les paragraphes, la mise en forme et les marqueurs du document courant pour gérer les séquences, personnages, dialogues, décors et la page de garde. Le niveau d’accès <code>documents.currentonly</code> limite cet accès au document dans lequel le module est utilisé ; aucun accès global à votre Drive n’est demandé. <code>script.container.ui</code> permet d’afficher le panneau et les boîtes de dialogue.</p>
+<h2>Métadonnées et stockage</h2>
+<p>Le module enregistre les noms et identifiants des personnages et décors, les identifiants persistants et caractéristiques des séquences, leurs associations aux personnages, les compteurs, l’ordre des registres et les informations de migration ou réparation. Ces données sont conservées dans les propriétés du document associées au projet Apps Script (<code>DocumentProperties</code>). Les marqueurs de séquences et de fin de garde sont des plages nommées stockées dans le document Google Docs.</p>
+<p>Un cache temporaire des services Google accélère la lecture des métadonnées ; sa durée demandée est de six heures au maximum. Le panneau conserve aussi un état temporaire en mémoire pendant son ouverture. Un export JSON volontaire peut contenir les métadonnées et associations du scénario ; vous contrôlez sa copie et son partage.</p>
+<h2>Transmissions et suivi</h2>
+<p>Le code du module inspecté n’envoie pas le scénario ou ses métadonnées vers un serveur tiers et ne comporte ni outil d’analyse d’audience ni traceur publicitaire. Son traitement s’effectue avec Google Docs et Google Apps Script. La journalisation des exceptions Apps Script est activée : Google peut conserver des informations techniques liées aux erreurs selon ses propres règles. Nous ne garantissons pas l’absence de données dans tous les diagnostics générés par la plateforme.</p>
+<p>Le site n’ajoute aucun cookie, script de suivi ou service d’analyse. L’hébergeur et Google peuvent traiter les données techniques nécessaires à leurs services, notamment les journaux de connexion.</p>
+<h2>Conservation et contrôle</h2>
+<p>Les métadonnées persistantes ne disposent pas d’une expiration automatique. La réinitialisation accessible dans le module reconstruit les données depuis le texte après confirmation : elle conserve le scénario mais peut perdre des associations manuelles impossibles à déduire. Elle ne constitue pas une suppression complète des données. Désinstaller le module ne garantit pas la suppression des propriétés ou plages nommées existantes.</p>
+<p>Vous pouvez supprimer le contenu ou le document via Google Docs et Drive, selon leurs mécanismes de corbeille et de conservation. Pour toute demande de suppression des métadonnées ou question sur vos données, contactez-nous avant de communiquer un scénario. Les exports JSON que vous avez sauvegardés doivent être supprimés séparément.</p>
+<h2>Utilisation limitée des données Google</h2>
+<p>L’utilisation des informations reçues via les services et niveaux d’accès Google respecte la <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> et la <a href="https://developers.google.com/workspace/workspace-api-user-data-developer-policy">politique relative aux données utilisateur Google Workspace</a>, y compris les exigences Limited Use. Les données servent aux fonctionnalités d’écriture et de structuration décrites ici ; elles ne sont ni vendues, ni utilisées pour la publicité ou l’entraînement de modèles d’intelligence artificielle.</p>
+<h2>Contact</h2><p>Responsable du produit : Mathis Billet. Pour exercer vos demandes ou poser une question : <a href="mailto:matisbillet@gmail.com">matisbillet@gmail.com</a>. Si vous contactez le support par e-mail, votre message et les éléments que vous choisissez de transmettre sont traités pour répondre à votre demande.</p>
+</main><footer><a href="/">Accueil</a> · <a href="/support">Support</a></footer>
+</body></html>

@@ -1,0 +1,23 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #18252b; background: #f6f3ec; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.65; }
+a { color: #205e53; text-underline-offset: .2em; }
+a:focus-visible { outline: 3px solid #bd8429; outline-offset: 5px; }
+header, main, footer { max-width: 1040px; margin: auto; padding: 28px; }
+header { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #d8d8cd; }
+.brand { font-weight: 750; text-decoration: none; color: inherit; }
+nav { display: flex; gap: 24px; flex-wrap: wrap; }
+main { padding-top: 64px; padding-bottom: 64px; }
+.eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: .8rem; color: #52635d; }
+h1 { font-size: clamp(2.3rem, 6vw, 4.4rem); line-height: 1.1; letter-spacing: -.04em; max-width: 850px; }
+h2 { font-size: 1.45rem; line-height: 1.3; }
+.lead { max-width: 720px; font-size: 1.2rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 48px; }
+.card { padding: 26px; background: #fffdf8; border: 1px solid #dfdfd4; border-radius: 10px; }
+.card h2 { margin-top: 0; }
+.prose { max-width: 780px; }
+.prose h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+.prose h2 { margin-top: 36px; }
+.note { padding: 20px; border-left: 4px solid #205e53; background: #eaf0e9; margin-top: 30px; }
+footer { font-size: .9rem; border-top: 1px solid #d8d8cd; }
+@media (max-width: 480px) { header, main, footer { padding: 20px; } main { padding-top: 40px; } nav { gap: 16px; } }
